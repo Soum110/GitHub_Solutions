@@ -8,3 +8,5 @@ class Solution:
                 candidate = num
             count += (1 if candidate == num else -1)
         return candidate
+
+## Boyer-Moore Voting Algorithm (optimal)
