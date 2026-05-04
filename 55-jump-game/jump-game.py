@@ -7,3 +7,5 @@ class Solution:
                 return False
             maxreach = max(maxreach, i + nums[i])
         return True
+
+## 'i > reach' is trying to know can I jump to the index i using the present reach or not
